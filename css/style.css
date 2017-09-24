@@ -146,10 +146,19 @@
     background: -webkit-linear-gradient(to left, #b8b8b8, #f2f2f2, #dbdbdb, #b8b8b8); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #b8b8b8, #f2f2f2, #dbdbdb, #b8b8b8);
 }
-
-.img-portafolio{
-    border: solid 1px black;
+.portfolio-box{
+    border: solid 0.3vh black;
+    box-shadow: inset 0 0 4vh #000000;
 }
-.img-portafolio a{
-    margin: 30px;
+.img-portafolio{
+    padding: 5vh;
+
+}
+.img-portafolio img{
+    width: 90%;
+    height: 30vh;
+    margin: 5%;
+}
+.img-br{
+    border-radius: 2vh;
 }
